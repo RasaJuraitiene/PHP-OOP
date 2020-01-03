@@ -1,5 +1,6 @@
 <?php
 
+define('ROOT', __DIR__);
 require('bootloader.php');
 
 /**
@@ -11,10 +12,15 @@ require('bootloader.php');
  */
 function form_success($form, $inputs)
 {
-    $array = file_to_array(DB_FILE);
+    // Tam, kad neisirasytu sitas field i faila
     unset($inputs['password_repeat']);
+
+    $array = file_to_array(DB_FILE);
     $array[] = $inputs;
     array_to_file($array, DB_FILE);
+
+    $_COOKIE['user_id'] = $_COOKIE['user_id'] ?? uniqid();
+    setcookie('user_id', $_COOKIE['user_id'], time() + 3600, '/');
 }
 
 /**
@@ -104,21 +110,42 @@ $form = [
 
 if (!empty($_POST)) {
     $inputs = get_form_input($form);
-    $status = validate_form($form, $inputs);
+    $success = validate_form($form, $inputs);
 } else {
-    $status = false;
+    $success = false;
 }
 
-$h1 = $status ? 'Viskas OK' : 'Viskas hujne';
+$show_form = isset($_COOKIE['user_id']) ? false : true;
+/* trumpinys
+if (isset($_COOKIE['user_id'])) {
+    // Jeigu forma jau buvo submittinta sito userio
+    $show_form = false;
+} else {
+    $show_form = true;
+}
+*/
+
+$h1 = $success ? 'Viskas OK' : 'Viskas xujne';
+$table = !$show_form ? prepare_table(file_to_array(DB_FILE)) : null;
 
 ?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Form</title>
+    <style>
+        table, th, td {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+    </style>
 </head>
 <body>
-<h1><?php print $h1; ?></h1>
-<?php require('templates/form.tpl.php'); ?>
+<?php if ($show_form): ?>
+    <h1><?php print $h1; ?></h1>
+    <?php require('templates/form.tpl.php'); ?>
+<?php else: ?>
+    <?php require('templates/table.tpl.php'); ?>
+<?php endif; ?>
 </body>
 </html>
