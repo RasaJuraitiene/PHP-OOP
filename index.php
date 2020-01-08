@@ -39,7 +39,6 @@ $table = !$show_form ? prepare_table(file_to_array(DB_FILE)) : null;
 <?php else: ?>
     <?php require('templates/table.tpl.php'); ?>
     <a href="logOut.php">Click here to log out!</a>
-    <a href="deleteAccount.php">Click here to delete your account!</a>
 <?php endif; ?>
 </body>
 </html>
