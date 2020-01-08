@@ -1,10 +1,15 @@
 <?php
-session_start();
 
-define('DB_FILE' , 'data/db.txt');
-define('ROOT', __DIR__);
+declare(strict_types = 1);
 
-require('functions/form/core.php');
-require('functions/html.php');
-require('functions/file.php');
-require ('functions/auth.php');
+require 'config.php';
+
+// Load Core Classes
+//require ROOT . '/vendor/autoload.php';
+
+// Load Core Functions
+require ROOT . '/core/functions/form/core.php';
+require ROOT . '/core/functions/html/builder.php';
+
+// Load App Functions
+require ROOT . '/app/functions/validators.php';

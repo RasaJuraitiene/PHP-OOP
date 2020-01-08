@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4bcf4bfb-bd20-48d7-9ea7-627e9ddb8e92" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="www" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1TmTg6mI7FOHlyjI0qE2jxVJIy3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\Desktop\www\assets\css" />
+      <recent name="C:\Users\Dell\Desktop\www\functions\form" />
+      <recent name="C:\Users\Dell\Desktop\www\app\Views\admin" />
+      <recent name="C:\Users\Dell\Desktop\www\app\Models" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\Desktop\www" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4bcf4bfb-bd20-48d7-9ea7-627e9ddb8e92" name="Default Changelist" comment="" />
+      <created>1573721817211</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573721817211</updated>
+      <workItem from="1573721828448" duration="20614000" />
+      <workItem from="1574063001006" duration="367000" />
+      <workItem from="1574063414369" duration="4000" />
+      <workItem from="1574064387021" duration="99607000" />
+      <workItem from="1575271938011" duration="16590000" />
+      <workItem from="1575362114644" duration="7693000" />
+      <workItem from="1575459327512" duration="9213000" />
+      <workItem from="1575877522013" duration="57663000" />
+      <workItem from="1576485284620" duration="71224000" />
+      <workItem from="1578299307894" duration="1776000" />
+      <workItem from="1578301128623" duration="1787000" />
+      <workItem from="1578302960162" duration="1269000" />
+      <workItem from="1578304772397" duration="1809000" />
+      <workItem from="1578306670465" duration="1799000" />
+      <workItem from="1578308558392" duration="1767000" />
+      <workItem from="1578310370940" duration="840000" />
+      <workItem from="1578313868622" duration="1816000" />
+      <workItem from="1578315850468" duration="1776000" />
+      <workItem from="1578317659120" duration="1004000" />
+      <workItem from="1578319471718" duration="1611000" />
+      <workItem from="1578340181897" duration="820000" />
+      <workItem from="1578382539049" duration="1777000" />
+      <workItem from="1578384360018" duration="1933000" />
+      <workItem from="1578386326467" duration="1803000" />
+      <workItem from="1578388186598" duration="1740000" />
+      <workItem from="1578390129016" duration="1771000" />
+      <workItem from="1578392263733" duration="1700000" />
+      <workItem from="1578394259872" duration="1633000" />
+      <workItem from="1578400360116" duration="1699000" />
+      <workItem from="1578404160936" duration="1857000" />
+      <workItem from="1578471203928" duration="1320000" />
+      <workItem from="1578473024129" duration="1839000" />
+      <workItem from="1578474896517" duration="844000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="372" y="91" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578472193548">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="372" y="91" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1578472193548" />
+    <state x="372" y="99" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1575460752220">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="372" y="99" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.680@0.0.1280.680" timestamp="1575460752220" />
+    <state x="449" y="175" key="NewPhpClassDialog" timestamp="1575463541169">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="449" y="175" key="NewPhpClassDialog/0.0.1280.680@0.0.1280.680" timestamp="1575463541169" />
+    <state x="476" y="272" key="NewPhpFileDialog" timestamp="1578472911120">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="476" y="272" key="NewPhpFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1578472911120" />
+    <state x="350" y="168" key="com.intellij.ide.util.TipDialog" timestamp="1578474895615">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="350" y="168" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1578474895615" />
+    <state x="283" y="72" width="715" height="536" key="find.popup" timestamp="1578302902846">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="283" y="72" width="715" height="536" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1578302902846" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1576755191393">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1576755191393" />
+  </component>
+</project>
