@@ -1,10 +1,17 @@
 <?php
-
+//set current sesion ID
 $user_id = $_COOKIE['user_id'] ?? uniqid();
 $visits = ($_COOKIE['visits'] ?? 0) + 1;
 
 setCookie('user_id', $user_id, time() + 3600, "/");
 setCookie('visits', $visits, time() + 3600, "/");
+
+session_start();
+​
+$_SESSION['visits'] = ($_SESSION['visits'] ?? 0) + 1;
+​
+$h1 = session_id();
+$h2 = $_SESSION['visits'];
 
 //if (empty($_COOKIE['user_id'])) {
 //    $user_id = rand(1, 100000);

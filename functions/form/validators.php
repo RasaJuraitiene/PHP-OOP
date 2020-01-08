@@ -28,7 +28,7 @@ function validate_email($field_input, &$field)
 {
     $regex = '/^[a-zA-Z0-9._-]+[@]{1}[a-zA-Z0-9.]+[.]{1}[a-zA-Z0-9]{1,5}$/';
     if (!preg_match($regex, $field_input)) {
-        $field['error'] = 'Netinakams el pasto formatas';
+        $field['error'] = 'Netinkamas el pasto formatas';
         return false;
     }
     return true;
