@@ -7,7 +7,8 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
@@ -17,6 +18,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
   </component>
   <component name="ProjectId" id="1TmTg6mI7FOHlyjI0qE2jxVJIy3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -31,7 +37,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -98,7 +104,40 @@
       <workItem from="1578404160936" duration="1857000" />
       <workItem from="1578471203928" duration="1320000" />
       <workItem from="1578473024129" duration="1839000" />
-      <workItem from="1578474896517" duration="844000" />
+      <workItem from="1578474896517" duration="1550000" />
+      <workItem from="1578476768560" duration="1786000" />
+      <workItem from="1578478719942" duration="1841000" />
+      <workItem from="1578482083280" duration="1202000" />
+      <workItem from="1578555897473" duration="1322000" />
+      <workItem from="1578560382213" duration="1248000" />
+      <workItem from="1578562194440" duration="1788000" />
+      <workItem from="1578564005682" duration="1804000" />
+      <workItem from="1578565832351" duration="1643000" />
+      <workItem from="1578567855137" duration="1357000" />
+      <workItem from="1578573185524" duration="1941000" />
+      <workItem from="1578632110939" duration="599000" />
+      <workItem from="1578642456871" duration="1805000" />
+      <workItem from="1578644287813" duration="1788000" />
+      <workItem from="1578646100731" duration="2158000" />
+      <workItem from="1578648289571" duration="1108000" />
+      <workItem from="1578651860006" duration="1696000" />
+      <workItem from="1578653685605" duration="1946000" />
+      <workItem from="1578901847305" duration="890000" />
+      <workItem from="1578903658192" duration="1842000" />
+      <workItem from="1578905865955" duration="1782000" />
+      <workItem from="1578907691807" duration="1519000" />
+      <workItem from="1578912285419" duration="708000" />
+      <workItem from="1578914118006" duration="375000" />
+      <workItem from="1578914758133" duration="378000" />
+      <workItem from="1578915157277" duration="717000" />
+      <workItem from="1578921143141" duration="1783000" />
+      <workItem from="1578922952404" duration="1970000" />
+      <workItem from="1578924948856" duration="499000" />
+      <workItem from="1578980241584" duration="214000" />
+      <workItem from="1578986328113" duration="1847000" />
+      <workItem from="1578988200067" duration="1125000" />
+      <workItem from="1578990017424" duration="1237000" />
+      <workItem from="1578991860221" duration="1542000" />
     </task>
     <servers />
   </component>
@@ -106,26 +145,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="372" y="91" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578472193548">
+    <state x="372" y="91" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578556301163">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="372" y="91" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1578472193548" />
-    <state x="372" y="99" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1575460752220">
+    <state x="372" y="91" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1578556301163" />
+    <state x="372" y="99" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1578479405737">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="372" y="99" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.680@0.0.1280.680" timestamp="1575460752220" />
-    <state x="449" y="175" key="NewPhpClassDialog" timestamp="1575463541169">
+    <state x="372" y="99" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.680@0.0.1280.680" timestamp="1578479405737" />
+    <state x="449" y="175" key="NewPhpClassDialog" timestamp="1578921193183">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="449" y="175" key="NewPhpClassDialog/0.0.1280.680@0.0.1280.680" timestamp="1575463541169" />
-    <state x="476" y="272" key="NewPhpFileDialog" timestamp="1578472911120">
+    <state x="449" y="175" key="NewPhpClassDialog/0.0.1280.680@0.0.1280.680" timestamp="1578921193183" />
+    <state x="476" y="272" key="NewPhpFileDialog" timestamp="1578921170412">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="476" y="272" key="NewPhpFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1578472911120" />
-    <state x="350" y="168" key="com.intellij.ide.util.TipDialog" timestamp="1578474895615">
+    <state x="476" y="272" key="NewPhpFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1578921170412" />
+    <state x="153" y="0" key="SettingsEditor" timestamp="1578651878833">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="350" y="168" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1578474895615" />
+    <state x="153" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1578651878833" />
+    <state x="350" y="168" key="com.intellij.ide.util.TipDialog" timestamp="1578991863551">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="350" y="168" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1578991863551" />
     <state x="283" y="72" width="715" height="536" key="find.popup" timestamp="1578302902846">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
