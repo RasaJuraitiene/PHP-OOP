@@ -4,6 +4,7 @@
 namespace App\Drinks;
 
 
+use App\App;
 use Core\FileDB;
 
 class Model
@@ -14,29 +15,55 @@ class Model
 
     public function __construct()
     {
-        $this->db = New FileDB(DB_FILE);
-        $this->db->load();
-        $this->db->createTable($this->table_name);
+        App::$db->createTable($this->table_name);
     }
 
     public function insert(Drink $drink)
     {
-        return $this->db->insertRow($this->table_name, $drink->getData());
+        return App::$db->insertRow($this->table_name, $drink->getData());
     }
 
+    /**Grazina prafiltruota objektu masyva(masyva is objektu)
+     *
+     * @param $conditions
+     * @return array
+     *
+     */
     public function get($conditions)
     {
         $drinks_objects = [];
-        $drinks_array = $this->db->getRowsWhere($this->table_name, $conditions);
+        $drinks_array = App::$db->getRowsWhere($this->table_name, $conditions);
 
         foreach ($drinks_array as $row_id => $drink_array) {
-            $drink = new Drink($drinks_array);
+            $drink = new Drink($drink_array);
             $drink->setId($row_id);
 
             $drinks_objects[] = $drink;
         }
 
-    return $drinks_objects;
-}
+        return $drinks_objects;
+    }
 
+    public function getById($row_id) {
+        $drink_array = App::$db->getRow($this->table_name, $row_id);
+
+        if ($drink_array) {
+            $drink = new Drink($drink_array);
+            $drink->setId($row_id);
+
+            return $drink;
+        }
+
+        return null;
+    }
+
+    public function update(Drink $drink)
+    {
+        return App::$db->updateRow($this->table_name, $drink->getID(), $drink->getData());
+    }
+
+    public function delete(Drink $drink)
+    {
+        return App::$db->deleteRow($this->table_name, $drink->getID());
+    }
 }

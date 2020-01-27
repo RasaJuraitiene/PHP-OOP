@@ -162,6 +162,7 @@ class FileDB
 
     }
 
+
     public function getRowsWhere($table_name, array $conditions)
     {
         $results = [];
@@ -180,7 +181,7 @@ class FileDB
             }
 
             if ($found) $results[$row_id] = $row;
-            
+
         }
 
         return $results;

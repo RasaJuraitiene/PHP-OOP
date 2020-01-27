@@ -1,1 +1,0 @@
-{"drinks":[{"name":"Vodka","amount":40,"abarot":0.7,"image":"www.delfi.lt","id":656},{"name":"Vodka","amount":40,"abarot":0.7,"image":"www.delfi.lt","id":656}]}

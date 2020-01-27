@@ -1,0 +1,90 @@
+
+.drink {
+    position: relative;
+    display: inline-block;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid gray;
+    height: 250px;
+    width: 220px;
+    text-align: center;
+}
+
+.drink_align {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    text-align: center;
+}
+
+.drink-image {
+    object-fit: cover;
+    height: 150px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.drink-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.drink-stock {
+    color: lightgrey;
+}
+
+.drink-price {
+    display: flex;
+    align-items: end;
+    justify-content: flex-start;
+    /*padding: 10px;*/
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+input, select {
+    width: 15vw;
+    padding: 5px;
+    margin: 5px !important;
+}
+
+.left {
+    display: flex;
+}
+
+.nav_butn {
+    margin: 10px 20px;
+    padding: 5px 20px;
+    border-radius: 10%;
+    border: 1px solid cornflowerblue;
+    background-color: royalblue;
+    color: white;
+}
+
+.right {
+    display: flex;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_bar {
+    height: 60px;
+    background-color: lightskyblue;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}

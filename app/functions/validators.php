@@ -1,21 +1,18 @@
 <?php
 
-function validate_login($filtered_input, &$form) {
-    $login_success = \App\App::$session->login(
-            $filtered_input['email'],
-            $filtered_input['password']
-    );
+function validate_login($inputs, &$form)
+{
+    $success = \App\App::$session->login($inputs['email'], $inputs['password']);
 
-    if (!$login_success) {
-        $form['fields']['password']['error'] = 'Prisijungimo duomenys neteisingi!';
-        $form['fields']['password']['value'] = '';
+    if (!$success) {
+    $form['fields']['email']['error'] = 'Neteisingai įvesti duomenys!';
+    $form['fields']['password']['error'] = 'Neteisingai įvesti duomenys!';
         return false;
     }
-
     return true;
 }
 
-function validate_mail($field_value, &$field) {
+function validate_email_is_unique($field_value, &$field) {
     $modelUser = new \App\Users\Model();
     $users = $modelUser->get(['email' => $field_value]);
     if ($users) {
@@ -23,5 +20,26 @@ function validate_mail($field_value, &$field) {
         return false;
     }
     
+    return true;
+}
+
+function validate_chars_length($field_input, &$field, $params)
+{
+    $l = strlen($field_input);
+
+    if (isset($params['max'])) {
+        if ($l > $params['max']) {
+            $field['error'] = "Virsytas leistinu simboliu kiekis (max: {$params['max']})";
+            return false;
+        }
+    }
+
+    if (isset($params['min'])) {
+        if ($l < $params['min']) {
+            $field['error'] = "Nepakankamas simbolių kiekis (min: {$params['min']})";
+            return false;
+        }
+    }
+
     return true;
 }

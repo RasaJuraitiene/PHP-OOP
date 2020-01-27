@@ -4,11 +4,12 @@
 namespace App\Drinks;
 
 
-class Drink
+use App\DataHolder;
+
+class Drink extends DataHolder
 {
-    private $data;
     private $properties = [
-        'name', 'amount', 'abarot', 'image', 'id'
+        'name', 'amount', 'abarot', 'image', 'id', 'price', 'in_stock'
     ];
 
     public function setName(string $name)
@@ -58,48 +59,27 @@ class Drink
 
     public function getId()
     {
-        return $this->data['id'];
+        return $this->data['id'] ?? null;
     }
 
-    public function setData(array $data)
+    public function setPrice(int $price)
     {
-        foreach ($this->properties as $property) {
-            if (isset($data[$property])) {
-
-                $value = $data[$property];
-                /* amount_ml */
-                $setter = str_replace('_', '', 'set' . $property);
-                /* setamountml */
-
-                /* setAmountMl(...) */
-                // $this->setAmountMl(...);
-
-                $this->{$setter}($value);
-            }
-        }
-//        Antras budas apsirasymui
-//        if(isset($data['name'])) $this->setName($data['name']);
-//        if(isset($data['amount'])) $this->setName($data['amount']);
-//        if(isset($data['abarot'])) $this->setName($data['abarot']);
-//        if(isset($data['image'])) $this->setName($data['image']);
+        $this->data['price'] = $price;
     }
 
-    public function getData()
+    public function getPrice()
     {
-        $data = [];
-
-        foreach ($this->properties as $property) {
-            $getter = str_replace('_', '', 'get' . $property);
-
-            $data[$property] = $this->{$getter}();
-        }
-        return $data;
+        return $this->data['price'] ?? null;
     }
 
-    public function __construct(array $data = null)
+    public function setInStock(int $in_stock)
     {
-        if ($data) {
-            $this->setData($data);
-        }
+        $this->data['in_stock'] = $in_stock;
     }
+
+    public function getInStock()
+    {
+        return $this->data['in_stock'] ?? null;
+    }
+
 }
