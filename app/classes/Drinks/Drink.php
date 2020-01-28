@@ -8,8 +8,8 @@ use App\DataHolder;
 
 class Drink extends DataHolder
 {
-    private $properties = [
-        'name', 'amount', 'abarot', 'image', 'id', 'price', 'in_stock'
+    protected $properties = [
+        'name', 'amount', 'abarot', 'image', 'price', 'in_stock'
     ];
 
     public function setName(string $name)
@@ -50,16 +50,6 @@ class Drink extends DataHolder
     public function getImage()
     {
         return $this->data['image'];
-    }
-
-    public function setId(int $id)
-    {
-        $this->data['id'] = $id;
-    }
-
-    public function getId()
-    {
-        return $this->data['id'] ?? null;
     }
 
     public function setPrice(int $price)

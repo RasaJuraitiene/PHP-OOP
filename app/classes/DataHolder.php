@@ -26,24 +26,34 @@ class DataHolder extends \Core\Abstracts\DataHolder
         }
     }
 
-        public function getData()
-        {
-            // TODO: Implement getData() method.
-            $data = [];
+    public function getData()
+    {
+        // TODO: Implement getData() method.
+        $data = [];
 
-            foreach ($this->properties as $property) {
-                $getter = str_replace('_', '', 'get' . $property);
+        foreach ($this->properties as $property) {
+            $getter = str_replace('_', '', 'get' . $property);
 
-                $data[$property] = $this->{$getter}();
-            }
-            return $data;
+            $data[$property] = $this->{$getter}();
         }
+        return $data;
+    }
 
     public function __construct(array $data = null)
     {
         if ($data) {
             $this->setData($data);
         }
+    }
+
+    public function setId(int $id)
+    {
+        $this->data['id'] = $id;
+    }
+
+    public function getId()
+    {
+        return $this->data['id'] ?? null;
     }
 
 }

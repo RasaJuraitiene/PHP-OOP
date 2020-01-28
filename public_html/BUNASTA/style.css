@@ -1,0 +1,98 @@
+.main{
+    text-align: left;
+  }
+
+#stwo-col h2
+{
+    display: block;
+    padding-bottom: 1.5em;
+    letter-spacing: 0.10em;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 600;
+    /*color: #FFBD74;*/
+}
+
+h1, h2, h3
+{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 3em;
+    color: white;
+}
+
+#banner span
+{
+    display: block;
+    padding-top: 0.20em;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+#header-featured
+{
+    padding: 10em 0em;
+    background-image: url("https://bunasta.eu/wp-content/uploads/2019/07/hero-home.jpg");
+    background-color: rgba(255, 255, 255, 0.2);
+    background-position: center;
+    background-size: cover;
+
+}
+
+#header
+{
+    position: relative;
+    height: 80px;
+}
+
+#menu .current_page_item a
+{
+    color: #FFBD74;
+}
+
+
+#logo
+{
+    position: absolute;
+    top: 1.6em;
+    width: 100%;
+
+}
+
+#banner .button
+{
+    margin-top: 2em;
+    background: #FFBD74;
+    border-radius: 5%;
+}
+
+.font-size{
+    font-size: 1.9rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 1.2;
+ 
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.cards{
+    padding: 10px;
+    margin: 5px;
+    color: whitesmoke;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5%;
+}
+
+.bluras{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+

@@ -5,7 +5,7 @@ namespace Core\Abstracts;
 abstract class DataHolder
 {
     protected $data;
-    protected $properties;
+    protected $properties = ['id'];
 
     abstract protected function setData(Array $data);
 

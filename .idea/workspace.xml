@@ -1,34 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4bcf4bfb-bd20-48d7-9ea7-627e9ddb8e92" name="Default Changelist" comment="" />
+    <list default="true" id="83cba0ad-6fc7-451a-ae2d-743b7e5a6705" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="www" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,7 +21,7 @@
       <path value="$PROJECT_DIR$/vendor/composer" />
     </include_path>
   </component>
-  <component name="ProjectId" id="1TmTg6mI7FOHlyjI0qE2jxVJIy3" />
+  <component name="ProjectId" id="1WzKmd3BuwR7XnnREAIRTcQ36pj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -46,25 +29,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/classes/Views" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Dell\Desktop\www\app\classes\Views" />
-      <recent name="C:\Users\Dell\Desktop\www\public_html" />
-      <recent name="C:\Users\Dell\Desktop\www" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Dell\Desktop\www\core\classes" />
-      <recent name="C:\Users\Dell\Desktop\www\app\classes" />
-      <recent name="C:\Users\Dell\Desktop\www\assets\css" />
-      <recent name="C:\Users\Dell\Desktop\www\functions\form" />
-      <recent name="C:\Users\Dell\Desktop\www\app\Views\admin" />
+      <recent name="C:\Users\Dell\Desktop\www\public_html" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -84,151 +56,19 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4bcf4bfb-bd20-48d7-9ea7-627e9ddb8e92" name="Default Changelist" comment="" />
-      <created>1573721817211</created>
+      <changelist id="83cba0ad-6fc7-451a-ae2d-743b7e5a6705" name="Default Changelist" comment="" />
+      <created>1580147143797</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1573721817211</updated>
-      <workItem from="1573721828448" duration="20614000" />
-      <workItem from="1574063001006" duration="367000" />
-      <workItem from="1574063414369" duration="4000" />
-      <workItem from="1574064387021" duration="99607000" />
-      <workItem from="1575271938011" duration="16590000" />
-      <workItem from="1575362114644" duration="7693000" />
-      <workItem from="1575459327512" duration="9213000" />
-      <workItem from="1575877522013" duration="57663000" />
-      <workItem from="1576485284620" duration="71224000" />
-      <workItem from="1578299307894" duration="1776000" />
-      <workItem from="1578301128623" duration="1787000" />
-      <workItem from="1578302960162" duration="1269000" />
-      <workItem from="1578304772397" duration="1809000" />
-      <workItem from="1578306670465" duration="1799000" />
-      <workItem from="1578308558392" duration="1767000" />
-      <workItem from="1578310370940" duration="840000" />
-      <workItem from="1578313868622" duration="1816000" />
-      <workItem from="1578315850468" duration="1776000" />
-      <workItem from="1578317659120" duration="1004000" />
-      <workItem from="1578319471718" duration="1611000" />
-      <workItem from="1578340181897" duration="820000" />
-      <workItem from="1578382539049" duration="1777000" />
-      <workItem from="1578384360018" duration="1933000" />
-      <workItem from="1578386326467" duration="1803000" />
-      <workItem from="1578388186598" duration="1740000" />
-      <workItem from="1578390129016" duration="1771000" />
-      <workItem from="1578392263733" duration="1700000" />
-      <workItem from="1578394259872" duration="1633000" />
-      <workItem from="1578400360116" duration="1699000" />
-      <workItem from="1578404160936" duration="1857000" />
-      <workItem from="1578471203928" duration="1320000" />
-      <workItem from="1578473024129" duration="1839000" />
-      <workItem from="1578474896517" duration="1550000" />
-      <workItem from="1578476768560" duration="1786000" />
-      <workItem from="1578478719942" duration="1841000" />
-      <workItem from="1578482083280" duration="1202000" />
-      <workItem from="1578555897473" duration="1322000" />
-      <workItem from="1578560382213" duration="1248000" />
-      <workItem from="1578562194440" duration="1788000" />
-      <workItem from="1578564005682" duration="1804000" />
-      <workItem from="1578565832351" duration="1643000" />
-      <workItem from="1578567855137" duration="1357000" />
-      <workItem from="1578573185524" duration="1941000" />
-      <workItem from="1578632110939" duration="599000" />
-      <workItem from="1578642456871" duration="1805000" />
-      <workItem from="1578644287813" duration="1788000" />
-      <workItem from="1578646100731" duration="2158000" />
-      <workItem from="1578648289571" duration="1108000" />
-      <workItem from="1578651860006" duration="1696000" />
-      <workItem from="1578653685605" duration="1946000" />
-      <workItem from="1578901847305" duration="890000" />
-      <workItem from="1578903658192" duration="1842000" />
-      <workItem from="1578905865955" duration="1782000" />
-      <workItem from="1578907691807" duration="1519000" />
-      <workItem from="1578912285419" duration="708000" />
-      <workItem from="1578914118006" duration="375000" />
-      <workItem from="1578914758133" duration="378000" />
-      <workItem from="1578915157277" duration="717000" />
-      <workItem from="1578921143141" duration="1783000" />
-      <workItem from="1578922952404" duration="1970000" />
-      <workItem from="1578924948856" duration="499000" />
-      <workItem from="1578980241584" duration="214000" />
-      <workItem from="1578986328113" duration="1847000" />
-      <workItem from="1578988200067" duration="1125000" />
-      <workItem from="1578990017424" duration="1237000" />
-      <workItem from="1578991860221" duration="1802000" />
-      <workItem from="1578993728219" duration="1803000" />
-      <workItem from="1578999484967" duration="1656000" />
-      <workItem from="1579001564829" duration="1782000" />
-      <workItem from="1579003377597" duration="760000" />
-      <workItem from="1579006609220" duration="1785000" />
-      <workItem from="1579008426014" duration="1788000" />
-      <workItem from="1579010264953" duration="1597000" />
-      <workItem from="1579073441001" duration="1347000" />
-      <workItem from="1579075285541" duration="1779000" />
-      <workItem from="1579077098670" duration="2052000" />
-      <workItem from="1579079263537" duration="1790000" />
-      <workItem from="1579086266047" duration="1465000" />
-      <workItem from="1579088106134" duration="1301000" />
-      <workItem from="1579089965642" duration="1324000" />
-      <workItem from="1579092906017" duration="324000" />
-      <workItem from="1579160055242" duration="1708000" />
-      <workItem from="1579161866266" duration="1781000" />
-      <workItem from="1579163681206" duration="1781000" />
-      <workItem from="1579165501222" duration="1781000" />
-      <workItem from="1579167312146" duration="1782000" />
-      <workItem from="1579169160607" duration="59000" />
-      <workItem from="1579173478728" duration="1781000" />
-      <workItem from="1579175286509" duration="1612000" />
-      <workItem from="1579246139345" duration="1745000" />
-      <workItem from="1579247948539" duration="917000" />
-      <workItem from="1579250005810" duration="1510000" />
-      <workItem from="1579251815471" duration="1524000" />
-      <workItem from="1579253818468" duration="1225000" />
-      <workItem from="1579260972129" duration="1780000" />
-      <workItem from="1579262780986" duration="1445000" />
-      <workItem from="1579264758564" duration="1695000" />
-      <workItem from="1579266569962" duration="371000" />
-      <workItem from="1579506465585" duration="1546000" />
-      <workItem from="1579508271651" duration="1795000" />
-      <workItem from="1579510096276" duration="1790000" />
-      <workItem from="1579511917012" duration="1798000" />
-      <workItem from="1579513737855" duration="728000" />
-      <workItem from="1579518741567" duration="611000" />
-      <workItem from="1579520564159" duration="1785000" />
-      <workItem from="1579522389101" duration="602000" />
-      <workItem from="1579524313135" duration="1046000" />
-      <workItem from="1579526865763" duration="605000" />
-      <workItem from="1579592818598" duration="1783000" />
-      <workItem from="1579594625967" duration="202000" />
-      <workItem from="1579600662073" duration="211000" />
-      <workItem from="1579608976309" duration="1784000" />
-      <workItem from="1579610792437" duration="1817000" />
-      <workItem from="1579612695034" duration="1793000" />
-      <workItem from="1579614510637" duration="1947000" />
-      <workItem from="1579678456401" duration="1790000" />
-      <workItem from="1579680288734" duration="1782000" />
-      <workItem from="1579682115329" duration="1544000" />
-      <workItem from="1579683947490" duration="1848000" />
-      <workItem from="1579685818039" duration="1627000" />
-      <workItem from="1579696709952" duration="129000" />
-      <workItem from="1579765501431" duration="1141000" />
-      <workItem from="1579767719939" duration="262000" />
-      <workItem from="1579768560829" duration="1775000" />
-      <workItem from="1579770381498" duration="1156000" />
-      <workItem from="1579772188070" duration="1272000" />
-      <workItem from="1579779707499" duration="1797000" />
-      <workItem from="1579781539102" duration="1777000" />
-      <workItem from="1579783345711" duration="1777000" />
-      <workItem from="1579785160587" duration="641000" />
-      <workItem from="1579851595047" duration="1792000" />
-      <workItem from="1579853433038" duration="1779000" />
-      <workItem from="1579855247109" duration="1230000" />
-      <workItem from="1579856573856" duration="1777000" />
-      <workItem from="1579858382614" duration="1359000" />
-      <workItem from="1579860219619" duration="1479000" />
-      <workItem from="1579864045445" duration="234000" />
-      <workItem from="1580111853573" duration="1780000" />
-      <workItem from="1580113670487" duration="1798000" />
-      <workItem from="1580115514285" duration="826000" />
+      <updated>1580147143797</updated>
+      <workItem from="1580147151317" duration="241000" />
+      <workItem from="1580147478552" duration="1799000" />
+      <workItem from="1580149314365" duration="1938000" />
+      <workItem from="1580151276138" duration="1387000" />
+      <workItem from="1580152697291" duration="1788000" />
+      <workItem from="1580154522608" duration="190000" />
+      <workItem from="1580197040285" duration="1360000" />
+      <workItem from="1580201109306" duration="608000" />
     </task>
     <servers />
   </component>
@@ -236,56 +76,13 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="372" y="91" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579161146401">
+    <state x="477" y="272" key="NewPhpFileDialog" timestamp="1580147572707">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="372" y="91" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1579161146401" />
-    <state x="372" y="99" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1579857638744">
+    <state x="477" y="272" key="NewPhpFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1580147572707" />
+    <state x="351" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1580201109942">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="372" y="99" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.680@0.0.1280.680" timestamp="1579857638744" />
-    <state x="422" y="273" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#" timestamp="1580113881820">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="422" y="273" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#/0.0.1280.680@0.0.1280.680" timestamp="1580113881820" />
-    <state x="449" y="175" key="NewPhpClassDialog" timestamp="1580112957809">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="449" y="175" key="NewPhpClassDialog/0.0.1280.680@0.0.1280.680" timestamp="1580112957809" />
-    <state x="476" y="272" key="NewPhpFileDialog" timestamp="1579765997468">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="476" y="272" key="NewPhpFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1579765997468" />
-    <state x="153" y="0" key="SettingsEditor" timestamp="1578651878833">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="153" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1578651878833" />
-    <state x="350" y="168" key="com.intellij.ide.util.TipDialog" timestamp="1580115514300">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="350" y="168" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1580115514300" />
-    <state x="289" y="107" width="715" height="536" key="find.popup" timestamp="1579851893693">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="289" y="107" width="715" height="536" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1579851893693" />
-    <state x="298" y="152" width="672" height="677" key="run.anything.popup" timestamp="1579768861702">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="298" y="152" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1579768861702" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1579785295901">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1579785295901" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/app/classes/Drinks/Model.php</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="351" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1580201109942" />
   </component>
 </project>

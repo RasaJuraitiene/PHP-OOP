@@ -302,6 +302,20 @@ foreach ($drinksArray as $drink) {
     ];
 }
 
+$cookie = new \Core\Cookie('tracking');
+$data = $cookie->read();
+
+
+if(empty($data)){
+    $data = [
+        'count' => 1
+    ];
+} else {
+    $data['count']++;
+
+    $cookie->save($data, 60);
+}
+
 ?>
 <html>
 <head>

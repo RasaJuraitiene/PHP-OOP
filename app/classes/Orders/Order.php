@@ -8,19 +8,9 @@ use App\DataHolder;
 
 class Order extends DataHolder
 {
-    private $properties = [
-        'id', 'drink_id', 'timestamp', 'status'
+    protected $properties = [
+        'drink_id', 'timestamp', 'status'
     ];
-
-    public function setId(int $id)
-    {
-        $this->data['id'] = $id;
-    }
-
-    public function getId()
-    {
-        return $this->data['id'] ?? null;
-    }
 
     public function setDrinkId(int $drink_id)
     {
